@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Acme-CPANAuthors-EU
-version:            2009110201
+version:            2010081801
 abstract:           EU CPAN authors
 author:
     - Abigail <cpan@abigail.be>
@@ -16,6 +16,7 @@ build_requires:
     warnings:             0
 requires:
     Acme::CPANAuthors::Austrian:  0
+    Acme::CPANAuthors::British:  0
     Acme::CPANAuthors::French:  0
     Acme::CPANAuthors::German:  0
     Acme::CPANAuthors::Italian:  0
@@ -30,7 +31,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
